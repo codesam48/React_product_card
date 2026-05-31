@@ -64,3 +64,31 @@ body{
   border-radius: 30px;
   width: 150px;
 }
+@media (max-width: 480px) {
+  *{
+    font-size: 13px;
+  }
+  .practice{
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    width: 80%;
+    height: fit-content;
+  }
+  .image-div{
+    height: 160px;
+  }
+  #root{
+    width: 100%;
+  }
+  .practice > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
