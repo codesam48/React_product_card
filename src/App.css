@@ -68,6 +68,9 @@ body{
   *{
     font-size: 13px;
   }
+  body{
+    height: auto;
+  }
   .practice{
     flex-direction: column;
     width: 100%;
